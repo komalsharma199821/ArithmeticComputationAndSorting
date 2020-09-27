@@ -18,3 +18,8 @@ echo "USE CASE 3 OUTPUT : "$computedValueForUCThree;
 #compute use-case 4
 computedValueForUCFour=$(( c + a / b ));
 echo  "USE CASE 4 OUTPUT : "$computedValueForUCFour;
+
+#compute use-case 5
+computedValueForUCFive=$(( a % b + c ));
+echo "USE CASE 5 OUTPUT : "$computedValueForUCFive;
+
