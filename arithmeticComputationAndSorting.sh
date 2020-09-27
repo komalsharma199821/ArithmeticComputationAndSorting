@@ -23,3 +23,12 @@ echo  "USE CASE 4 OUTPUT : "$computedValueForUCFour;
 computedValueForUCFive=$(( a % b + c ));
 echo "USE CASE 5 OUTPUT : "$computedValueForUCFive;
 
+#use-case 6
+declare -A ucDict
+
+ucDict[uc1]=$computedValueForUCTwo;
+ucDict[uc2]=$computedValueForUCThree;
+ucDict[uc3]=$computedValueForUCFour;
+ucDict[uc4]=$computedValueForUCFive;
+
+echo "${ucDict[*]}";
