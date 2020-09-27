@@ -32,3 +32,13 @@ ucDict[uc3]=$computedValueForUCFour;
 ucDict[uc4]=$computedValueForUCFive;
 
 echo "${ucDict[*]}";
+
+#use-case 7
+declare -i ucArray
+
+ucArray[1]=ucDict[uc1];
+ucArray[2]=ucDict[uc2];
+ucArray[3]=ucDict[uc3];
+ucArray[4]=ucDict[uc4];
+echo "array is :"
+echo "${ucArray[*]}";
