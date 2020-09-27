@@ -42,3 +42,9 @@ ucArray[3]=ucDict[uc3];
 ucArray[4]=ucDict[uc4];
 echo "array is :"
 echo "${ucArray[*]}";
+
+#use-case 8 sorting the array data in desc order
+echo "desc order:"
+        IFS=$'\n';
+        sortedDescDict=`echo "${ucArray[*]}" | sort -n -r `;
+        echo $sortedDescDict;
