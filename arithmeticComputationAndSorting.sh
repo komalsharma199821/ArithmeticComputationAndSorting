@@ -48,3 +48,9 @@ echo "desc order:"
         IFS=$'\n';
         sortedDescDict=`echo "${ucArray[*]}" | sort -n -r `;
         echo $sortedDescDict;
+
+#use-case 9 sorting the array data in desc order
+echo "asc order : "
+        IFS=$'\n';
+        sortedAscDict=`echo "${ucArray[*]}" | sort -n `;
+        echo $sortedAscDict;
