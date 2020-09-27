@@ -11,3 +11,6 @@ echo "Entered value for c :"$c;
 computedValueForUCTwo=$(( a + b * c ));
 echo "USE CASE 2 OUTPUT : "$computedValueForUCTwo;
 
+#compute use-case 3 
+computedValueForUCThree=$(( a * b + c ));
+echo "USE CASE 3 OUTPUT : "$computedValueForUCThree;
